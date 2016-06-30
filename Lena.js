@@ -9,6 +9,7 @@ function processData(input) {
   var max = parseInt(split[0][1]);
   var important = 0;
   var total = 0;
+  console.log(max);
 
   matrix.sort(function(a, b) {
     return parseInt(a[0]) < parseInt(b[0])

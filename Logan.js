@@ -10,6 +10,7 @@ function processData(input) {
   var m = (1-1/n)^2;
   var z = 1/n;
   console.log(z/m^2);
+  console.log((1/n) / (1-1/n^2));
 };
 
 
