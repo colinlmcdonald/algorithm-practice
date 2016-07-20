@@ -41,7 +41,6 @@ function processData(input) {
   split.splice(0, 1)
   split.forEach(function(str) {
     var check = palindromeCheck(str)
-    // console.log(check);
     if (check === true) {
       console.log(-1);
     } else {
@@ -54,7 +53,6 @@ function processData(input) {
     }
   })
   function palindromeCheck(str) {
-    console.log(str);
     var end = str.length - 1
     for (var i = 0; i < str.length - 1; i++) {
       if (str[i] !== str[end]) {
